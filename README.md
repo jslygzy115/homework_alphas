@@ -1,5 +1,6 @@
 ### 如何运行
 alpha_creation.ipynb：用于读取MySQL数据库,进行因子计算,并将因子值存储到本地parquet
+
 alpha_test.ipynb:读取本地的因子数据，进行数据处理并分析因子表现
 
 
@@ -20,4 +21,4 @@ dV_abs_V_Corr：每日先将该股票的5分钟成交量序列做一阶差分，
 
 
 ### 因子评价
-详见 alpha_test.ipynb 
+image截取了5个因子对应的corr, 10组 group return及2018-2024的累计收益，更多因子评价指标详见 alpha_test.ipynb 
